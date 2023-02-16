@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - size
- * Return - Always 0
+ * main - C-programming
+ * Return: This returns (0)
  */
 int main(void)
 {
