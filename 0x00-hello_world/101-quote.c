@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <unlstd.h>
+#include <unistd.h>
 /**
  * main - C-program
- * Return 1 (Success)
+ * Return: 1
  */
 int main(void)
 {
