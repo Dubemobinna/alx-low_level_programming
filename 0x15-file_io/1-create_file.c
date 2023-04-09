@@ -20,11 +20,9 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content != NULL)
 	{
-		close(x);
-		return (1);
+		for (z = 0; text_content[z];)
+			z++;
 	}
-	while (text_content[z])
-		z++;
 	y = write(x, text_content, z);
 	close(x);
 	if (x == -1 || y == -1)
